@@ -1,0 +1,36 @@
+@media(max-width:600px){
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    .top-sectoin {
+        display: flex;
+        padding: 5%;
+    }
+    .top-sectoin h2, h1 {
+        color: #000000;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .top-sectoin a{
+        padding: 5px 15px;
+    }
+    .about{
+        padding-left: 30px;
+    }
+    .bottom-head h2{
+        font-size: 25px;
+    }
+    
+    .parent{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .child{
+        padding-bottom: 5px;
+    }
+    .flexible-container a{
+        padding: 5px 15px;
+    }
+}

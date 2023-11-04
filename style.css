@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&family=Niconne&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;900&family=Source+Code+Pro:wght@600;700;800;900&family=Teko:wght@500;600;700&display=swap');
+
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1{
+    font-size: 50px;
+}
+.top-sectoin h2,h1{
+    color: #fff;
+}
+.top-sectoin span{
+color: black;
+}
+h2{
+    font-size: 40px;
+}
+.top-sectoin{
+    display: flex;
+    padding: 5%;
+    /*align-items: center;*/
+    background-image: url(wave.svg);
+    background-repeat: no-repeat;
+}
+.haf-width{
+    width: 50%;
+}
+.hero-img{
+    width: 80%;
+}
+.top-sectoin a{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(blue,blueviolet);
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700px;
+}
+
+.flexible-container{
+    display: flex;
+    padding: 5%; 
+    /*align-items: center;  */
+}
+.flexible-container img{
+    border-radius: 50%;
+}
+.flexible-container a {
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(blue,blueviolet);
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700px;   
+}
+.about{
+padding-left: 40px;
+}
+.bottom-head{
+    text-align: center;
+    padding: 0 30%;
+}
+.parent{
+    display: flex;
+    padding: 0 8%;
+}
+.child{
+    box-shadow: 10px 5px 40px black;
+    margin: 2%;
+    padding: 50px;
+    border-radius: 0 20px 50px 0;
+    border-left: 5px solid ;
+    border-image:linear-gradient(blue,cyan) 0 100% ;
+}
+
+footer h5{
+    text-align: center;
+    padding-top: 80px;
+}
